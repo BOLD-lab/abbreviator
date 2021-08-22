@@ -1,12 +1,16 @@
 # Abbreviator
 
-Python Package to Abbreviate (product) names
+Python Package to Abbreviate (product) names, using hyphenation provided by the [pyphen](https://pyphen.org/) package
 
+## Installation
+
+`pip install abbreviator`
 
 ## Example Usage
 
-with `from abbreviate import sentence_shortener` use
+```
+import abbreviator
 
+abbreviator.sentence_shortener('what fantastic')
 ```
-sentence_shortener( "A verylong productname superdupermegafluxcompresses p2000", language=lang)
-```
+

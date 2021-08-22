@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 if os.environ.get('CI_COMMIT_TAG'):
     version = os.environ['CI_COMMIT_TAG']
 else:
-    version = "0.0.2"
+    version = "0.0.3"
 
 setuptools.setup(
     name="abbreviator",

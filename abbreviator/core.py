@@ -3,8 +3,9 @@ import pyphen
 dic_nl = pyphen.Pyphen(lang='nl_NL')
 dic_de = pyphen.Pyphen(lang='de_DE')
 dic_en = pyphen.Pyphen(lang='en_GB')
+dic_fr = pyphen.Pyphen(lang='fr')
 
-pyphen_dict = {'nl' : dic_nl, 'de' : dic_de, 'en' : dic_en}
+pyphen_dict = {'nl' : dic_nl, 'de' : dic_de, 'en' : dic_en, 'fr' : dic_fr}
 
 def shortener_v1( long_word, language='en'):
     """

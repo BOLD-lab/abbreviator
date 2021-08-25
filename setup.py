@@ -7,13 +7,13 @@ with open("README.md", "r") as fh:
 if os.environ.get('CI_COMMIT_TAG'):
     version = os.environ['CI_COMMIT_TAG']
 else:
-    version = "0.0.3"
+    version = "0.0.4"
 
 setuptools.setup(
     name="abbreviator",
     version=version,
-    author="Willem Hendriks & Stephanie Wagenaar",
-    author_email="whendrik@gmail.com",
+    author="Stephanie Wagenaar",
+    author_email="stephanie.wagenaar@boldcm.eu",
     description="Abbreviate Long Sentences/Names based on hyphenation",
     long_description=long_description,
     long_description_content_type="text/markdown",

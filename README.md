@@ -1,6 +1,6 @@
 # Abbreviator
 
-Python Package to Abbreviate (product) names, using hyphenation provided by the [pyphen](https://pyphen.org/) package
+Python Package to Abbreviate (product) names, using hyphenation provided by the [pyphen](https://pyphen.org/) package.
 
 ## Installation
 
@@ -13,4 +13,3 @@ import abbreviator
 
 abbreviator.sentence_shortener('what fantastic')
 ```
-
